@@ -9,7 +9,10 @@
   - 자체적으로 오픈소스 LLM 제공하진 않음
   - 오픈소스 LLM을 지원하는 다른 라이브러리와 연동 필요
   - OpenAI API는 LangChain 단독으로 직접 접근 가능
-- Streamlit: 간단한 웹앱을 만들기 위한 파이썬 라이브러리. ChatGPT같은 웹페이지 화면 뚝-딱
+- Streamlit
+  - 간단한 웹앱을 만들기 위한 파이썬 라이브러리. ChatGPT같은 웹페이지 화면 뚝-딱
+  - 데이터 분야에서 빠르게 가시화하는 용도로 사용됨
+  - 접속세션마다 파이썬 intepreter 연산이 실행되므로 사용자가 아주 많은 서비스엔 부적절
 - Hugging Face Transformers: 다양한 사전 학습된 LLM을 제공하며, 이를 쉽게 사용할 수 있는 API와 도구를 제공. LangChain과 연동하여 사용하면 된다.
 
 ## 예시: Prometheus LangChain Agent
